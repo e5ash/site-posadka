@@ -5,18 +5,22 @@
       margin-top: 50%; } }
 
 @media screen and (max-height: 915px) {
-  body .name {
-    margin-top: 40%; } }
+  body {
+    background-position-y: -70px; }
+    body .name {
+      margin-top: 40%; } }
 
 @media screen and (max-height: 850px) {
   body .name {
     margin-top: 30%; } }
 
 @media screen and (max-height: 780px) {
-  body .name {
-    margin-top: 20%; }
-  body .desc {
-    opacity: 1; } }
+  body {
+    background-position-y: -110px; }
+    body .name {
+      margin-top: 20%; }
+    body .desc {
+      opacity: 1; } }
 
 @media screen and (max-height: 710px) {
   body {
@@ -38,6 +42,8 @@
   body {
     background-image: none;
     padding-bottom: 50px; }
+    body .name {
+      margin-top: 20px; }
   .links li {
     display: block !important;
     width: 100%;
